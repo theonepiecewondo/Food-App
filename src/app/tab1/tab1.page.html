@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Pizza
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,14 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Pizza</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <h1 style="padding: 15px;">An oldie but a goodie. Pizza!</h1>
+  <ion-item button (click)="openIngredients()">
+    <img src="../../assets/img/pizza.jpg"> 
+  </ion-item>
+  
+  <br>
+  <p style="padding: 15px;">I love pizza. Pizza is one of my favorite foods. Its so easy to eat and buy and relatively cheap as well. Whenever me and my friends can't decide on food to eat, the default is pizza.</p>
 </ion-content>
